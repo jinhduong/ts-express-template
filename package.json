@@ -26,14 +26,17 @@
   },
   "homepage": "https://github.com/jinhduong/ts-express-template#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
     "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
+    "@types/jsonwebtoken": "^7.2.7",
     "browser-sync": "^2.24.5",
     "nodemon": "^1.17.5"
   }

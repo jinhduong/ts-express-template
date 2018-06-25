@@ -4,6 +4,7 @@ Some simply typescript-express templates.
 - Blank app
 - Web app
 - Api app
+- JWT token app
 - ect.
 
 ## Techs
