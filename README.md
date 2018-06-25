@@ -1,9 +1,10 @@
 # ts-express-template
 Some simply typescript-express templates. 
 ## List
-- Blank app
+- Blank app: https://github.com/jinhduong/ts-express-template
 - Web app
 - Api app
+- JWT app: https://github.com/jinhduong/ts-express-template/tree/jwt
 - ect.
 
 ## Techs
