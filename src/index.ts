@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get('/', async (req, res) => {
-    res.json(true);
+    res.json('Hello world');
 })
 
 app.listen(port, () => console.log(`Server running at ${port}`));

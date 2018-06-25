@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js"
+    "start": "npm run serve",
+    "dev": "npm run serve:w",
+    "tsc:s": "npm run tsc:b & npm run tsc:w",
+    "tsc:b": "tsc -p tsconfig.json",
+    "tsc:w": "tsc -w -p tsconfig.json",
+    "serve": "node dis/index.js",
+    "serve:w": "nodemon dist/index.js",
+    "browser-sync": "browser-sync start --server --files 'dist/*.js'"
   },
   "repository": {
     "type": "git",
@@ -22,9 +29,12 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "ts-node": "^7.0.0",
     "typescript": "^2.9.2"
   },
   "devDependencies": {
-    "@types/express": "^4.16.0"
+    "@types/express": "^4.16.0",
+    "browser-sync": "^2.24.5",
+    "nodemon": "^1.17.5"
   }
 }
