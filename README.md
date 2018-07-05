@@ -18,6 +18,7 @@ Some simply typescript-express templates.
 # clone repo
 git clone https://github.com/jinhduong/ts-express-template.git <your-app>
 
+# remove .git file
 # make it your own
 rm -rf .git && git init && npm init -y
 # make it your own (windows)
@@ -27,10 +28,13 @@ del /Q .git && git init && npm init -y
 npm install
 
 # run build and watch typescript files
-tsc:s
+npm run tsc:s
 
 # run dev mode (nodemon)
 npm run dev
+
+# build tsc
+npm run build
 
 # open localhost:3000 in browser
 ```
