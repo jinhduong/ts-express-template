@@ -10,8 +10,8 @@
     "tsc:s": "npm run tsc:b & npm run tsc:w",
     "tsc:b": "tsc -p tsconfig.json",
     "tsc:w": "tsc -w -p tsconfig.json",
-    "serve": "node dist/src/index.js",
-    "serve:w": "nodemon dist/src/index.js",
+    "serve": "node dist/index.js",
+    "serve:w": "nodemon dist/index.js",
     "browser-sync": "browser-sync start --server --files 'dist/*.js'",
     "build": "npm run tsc:b"
   },
